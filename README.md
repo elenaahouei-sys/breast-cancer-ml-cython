@@ -100,10 +100,11 @@ plt.title("Feature Correlation Matrix")
 plt.show()
 
 ⏱️ Speed Comparison (KNN)
-Implementation	Time (s)	Accuracy
-scikit-learn KNN	~0.015	0.973
-My Cython KNN	~0.005	0.973
-Pure Python KNN	~0.150	0.973
+| Implementation | Time (s) | Accuracy |
+|----------------|----------|----------|
+| scikit-learn KNN | 0.015 | 0.973 |
+| Cython KNN | 0.005 | 0.973 |
+| Pure Python KNN | 0.150 | 0.973 |
 
 Cython provides a ~20x speedup over pure Python while maintaining identical predictions.
 
